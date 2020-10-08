@@ -1,0 +1,619 @@
+#https://opendata.dwd.de/weather/alerts/cap/COMMUNEUNION_EVENT_STAT/Z_CAP_C_EDZW_20201006203935_PVW_STATUS_PREMIUMEVENT_COMMUNEUNION_DE.zip
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.276.0.DWD.PVW.1601880720000.7638a988-10da-4eb0-a1b4-9780846ce148.DEU</identifier>
+  <sender>opendata@dwd.de</sender>
+  <sent>2020-10-05T08:52:00+02:00</sent>
+  <status>Actual</status>
+  <msgType>Alert</msgType>
+  <source>PVW</source>
+  <scope>Public</scope>
+  <code>id:2.49.0.1.276.0.DWD.PVW.1601880720000.7638a988-10da-4eb0-a1b4-9780846ce148</code>
+  <info>
+    <language>de-DE</language>
+    <category>Met</category>
+    <event>SCHWERE STURMBÖEN</event>
+    <responseType>Prepare</responseType>
+    <urgency>Immediate</urgency>
+    <severity>Moderate</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>PROFILE_VERSION</valueName>
+      <value>2.1.11</value>
+    </eventCode>
+    <eventCode>
+      <valueName>LICENSE</valueName>
+      <value>© GeoBasis-DE / BKG 2019  (Daten modifiziert)</value>
+    </eventCode>
+    <eventCode>
+      <valueName>II</valueName>
+      <value>53</value>
+    </eventCode>
+    <eventCode>
+      <valueName>GROUP</valueName>
+      <value>WIND</value>
+    </eventCode>
+    <eventCode>
+      <valueName>AREA_COLOR</valueName>
+      <value>255 153 0</value>
+    </eventCode>
+    <effective>2020-10-05T08:52:00+02:00</effective>
+    <onset>2020-10-05T12:00:00+02:00</onset>
+    <expires>2020-10-07T06:00:00+02:00</expires>
+    <senderName>DWD / Nationales Warnzentrum Offenbach</senderName>
+    <headline>Amtliche WARNUNG vor SCHWEREN STURMBÖEN</headline>
+    <description>Es treten oberhalb 1000 m schwere Sturmböen mit Geschwindigkeiten zwischen 85 km/h (24m/s, 47kn, Bft 9) und 100 km/h (28m/s, 55kn, Bft 10) aus südwestlicher Richtung auf. In exponierten Lagen muss mit orkanartigen Böen bis 110 km/h (31m/s, 60kn, Bft 11) gerechnet werden.</description>
+    <instruction>ACHTUNG! Hinweis auf mögliche Gefahren: Vereinzelt können zum Beispiel Bäume entwurzelt und Dächer beschädigt werden. Achten Sie besonders auf herabstürzende Äste, Dachziegel oder Gegenstände.</instruction>
+    <web>http://www.wettergefahren.de</web>
+    <contact>Deutscher Wetterdienst</contact>
+    <parameter>
+      <valueName>gusts</valueName>
+      <value>85-100 [km/h]</value>
+    </parameter>
+    <parameter>
+      <valueName>exposed gusts</valueName>
+      <value>&lt;110 [km/h]</value>
+    </parameter>
+    <parameter>
+      <valueName>wind direction</valueName>
+      <value>south-west</value>
+    </parameter>
+    <area>
+      <areaDesc>polygonal event area</areaDesc>
+      <polygon>47.774495,7.615228 47.780712,7.63372 47.788115,7.611099 47.799925,7.610943 47.79967,7.599998 47.81033,7.579172 47.815526,7.571681 47.846365,7.595457 47.841832,7.618569 47.832286,7.636904 47.839214,7.641112 47.842746,7.662391 47.831081,7.698603 47.817053,7.70148 47.81538,7.708878 47.808873,7.721728 47.809341,7.734465 47.803674,7.741536 47.801795,7.767657 47.811942,7.763439 47.826847,7.766768 47.831955,7.756388 47.835412,7.764759 47.858324,7.754926 47.876892,7.768386 47.880052,7.801435 47.885102,7.82909 47.893265,7.843332 47.900724,7.819151 47.907333,7.813214 47.907836,7.79969 47.914307,7.789717 47.915894,7.771408 47.925327,7.769562 47.935736,7.780845 47.932465,7.791812 47.922536,7.811157 47.922037,7.828592 47.922345,7.842705 47.909968,7.865963 47.922841,7.862856 47.931221,7.875095 47.947409,7.8788 47.950098,7.855786 47.963376,7.841889 47.972793,7.835716 47.972327,7.822159 47.965016,7.805594 47.96872,7.790345 47.977432,7.767764 47.978452,7.726782 47.969479,7.724433 47.958865,7.703564 47.962656,7.689019 47.95894,7.677781 47.965883,7.662772 47.974976,7.678391 47.988063,7.684302 47.99635,7.679152 48.009878,7.704746 48.027721,7.703198 48.034599,7.708722 48.037773,7.731706 48.032261,7.734282 48.018874,7.757463 48.016924,7.768311 48.032823,7.785548 48.043955,7.793734 48.060864,7.796603 48.070469,7.8152 48.069131,7.825258 48.059116,7.83506 48.053549,7.849931 48.036816,7.85315 48.029455,7.876583 48.015354,7.873673 48.010329,7.887345 48.01201,7.913462 48.015264,7.920623 48.035152,7.915707 48.047614,7.915912 48.06484,7.921342 48.074529,7.923721 48.080141,7.893628 48.090287,7.901966 48.090551,7.918841 48.113997,7.942152 48.127267,7.936491 48.130869,7.948235 48.134659,7.955738 48.120801,7.972199 48.112689,7.991459 48.107023,8.015209 48.116842,8.020678 48.127487,8.045695 48.120039,8.059524 48.128486,8.083008 48.143098,8.079992 48.158942,8.067584 48.164866,8.033933 48.155394,8.025912 48.155845,7.994608 48.164197,7.991655 48.174706,8.001296 48.178292,8.065444 48.19785,8.05811 48.194043,8.079568 48.203104,8.079081 48.203461,8.057212 48.221814,8.051319 48.22588,8.071476 48.222382,8.083919 48.213655,8.068156 48.214708,8.082615 48.219284,8.086478 48.21231,8.092234 48.205898,8.095132 48.208965,8.104358 48.210514,8.116316 48.221333,8.126196 48.220759,8.14006 48.229138,8.150414 48.219416,8.165671 48.204671,8.183216 48.184291,8.179174 48.173135,8.206876 48.157799,8.224112 48.161121,8.231634 48.170658,8.240122 48.186189,8.244398 48.175959,8.263599 48.171416,8.281728 48.167804,8.286355 48.158113,8.278565 48.138749,8.296369 48.120011,8.291661 48.119564,8.28197 48.099889,8.272787 48.080856,8.282384 48.080676,8.29847 48.075797,8.308109 48.06894,8.310588 48.062367,8.324161 48.05469,8.334332 48.051556,8.344596 48.039761,8.349323 48.010282,8.341026 48.007797,8.356907 47.993197,8.360783 47.979054,8.354887 47.975861,8.343415 47.965208,8.333531 47.963432,8.342419 47.951488,8.344573 47.959392,8.357402 47.962598,8.367746 47.9568,8.379415 47.947474,8.382888 47.944691,8.400585 47.957686,8.407208 47.961818,8.426378 47.954546,8.44367 47.944713,8.44962 47.948876,8.471798 47.94524,8.476003 47.932712,8.473425 47.906867,8.456779 47.898747,8.465405 47.887189,8.468581 47.886371,8.454603 47.874669,8.439039 47.884507,8.420624 47.901384,8.412159 47.92558,8.354507 47.938504,8.337727 47.943218,8.315224 47.942126,8.2961 47.915386,8.294518 47.890178,8.311364 47.878871,8.309806 47.878061,8.289049 47.865704,8.279335 47.851875,8.26892 47.853706,8.285805 47.846871,8.293324 47.847557,8.304607 47.842076,8.320049 47.844858,8.331988 47.839483,8.369497 47.841056,8.380472 47.828111,8.37239 47.815566,8.381485 47.814278,8.41168 47.797898,8.417578 47.78111,8.402727 47.789677,8.382207 47.788797,8.359683 47.771832,8.36107 47.766727,8.336566 47.773791,8.332092 47.773055,8.31527 47.780088,8.299867 47.758803,8.284058 47.733649,8.300561 47.732875,8.281911 47.737414,8.260743 47.732093,8.242274 47.738536,8.23269 47.749425,8.228408 47.746511,8.217741 47.751962,8.196465 47.747995,8.193437 47.726447,8.214211 47.703533,8.2241 47.695046,8.187119 47.700598,8.15937 47.696216,8.155119 47.69628,8.131769 47.677698,8.124988 47.670249,8.116959 47.669716,8.112326 47.657775,8.100417 47.678347,8.088291 47.683819,8.063441 47.692381,8.059043 47.710994,8.059165 47.713543,8.065462 47.722577,8.051917 47.713095,8.038722 47.706257,8.020476 47.688862,8.027321 47.683578,8.021718 47.667153,8.031722 47.662391,8.008413 47.643939,8.027008 47.632487,8.020795 47.637831,8.008529 47.632803,8.000814 47.643914,7.98707 47.647989,7.969353 47.654312,7.961313 47.642845,7.952719 47.657303,7.937431 47.676982,7.946786 47.674739,7.927185 47.664421,7.909937 47.683376,7.91715 47.689099,7.902217 47.685794,7.894853 47.672229,7.886267 47.654601,7.868675 47.644487,7.87134 47.637552,7.872841 47.633363,7.850822 47.623721,7.842081 47.620461,7.829256 47.625029,7.812145 47.61811,7.79672 47.622429,7.786005 47.639805,7.796271 47.656697,7.791771 47.670647,7.79334 47.672885,7.782487 47.675639,7.782922 47.695708,7.78177 47.690096,7.767854 47.700205,7.762048 47.713057,7.76463 47.726385,7.755725 47.73256,7.736374 47.714203,7.713692 47.718446,7.700647 47.728771,7.69196 47.742839,7.692975 47.747873,7.685621 47.742672,7.674479 47.745101,7.649967 47.737941,7.629714 47.725296,7.630438 47.724559,7.620518 47.735306,7.586019 47.732882,7.574123 47.743366,7.568304 47.744055,7.551529 47.756254,7.564287 47.775642,7.572211 47.77207,7.585244 47.774495,7.615228 47.774495,7.615228</polygon>
+      <geocode>
+        <valueName>EXCLUDE_POLYGON</valueName>
+        <value>47.965208,8.333531 47.968919,8.317528 47.959084,8.325794 47.965208,8.333531 47.965208,8.333531 </value>
+      </geocode>
+      <geocode>
+        <valueName>EXCLUDE_POLYGON</valueName>
+        <value>48.013582,7.926744 47.988871,7.929453 47.962455,7.915415 47.950929,7.924399 47.93711,7.921705 47.938198,7.941405 47.948965,7.951102 47.946089,7.982641 47.953297,7.993827 47.966273,7.987865 47.978907,7.98895 47.984246,8.000614 47.995471,7.9975 48.005031,8.018806 48.023004,8.004139 48.022074,7.994313 48.02568,7.975091 48.013582,7.926744 48.013582,7.926744 </value>
+      </geocode>
+      <geocode>
+        <valueName>EXCLUDE_POLYGON</valueName>
+        <value>47.773699,7.891311 47.777322,7.871802 47.762413,7.88457 47.773699,7.891311 47.773699,7.891311 </value>
+      </geocode>
+      <geocode>
+        <valueName>EXCLUDE_POLYGON</valueName>
+        <value>47.690802,7.841237 47.702087,7.828405 47.697508,7.822831 47.668524,7.823848 47.667414,7.834317 47.678369,7.843751 47.690802,7.841237 47.690802,7.841237 </value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>polygonal event area</areaDesc>
+      <polygon>48.659415,8.064147 48.651749,8.071551 48.656037,8.101794 48.649792,8.114883 48.641329,8.114605 48.631555,8.131249 48.618503,8.16574 48.622099,8.17888 48.619393,8.194506 48.629117,8.198348 48.629341,8.202197 48.6276,8.226405 48.631331,8.22847 48.623389,8.242248 48.610408,8.232593 48.602834,8.222527 48.599733,8.239396 48.589251,8.263695 48.587043,8.29131 48.592335,8.332894 48.599219,8.357544 48.608911,8.350728 48.619154,8.382326 48.620522,8.396079 48.607886,8.40764 48.593455,8.407465 48.565147,8.42102 48.560799,8.428049 48.553353,8.418067 48.544626,8.426189 48.522542,8.429036 48.515985,8.422368 48.499997,8.424104 48.483634,8.391229 48.475232,8.383677 48.481325,8.35674 48.47546,8.342445 48.480857,8.329096 48.476249,8.295316 48.481958,8.277184 48.479373,8.270333 48.49045,8.266038 48.492977,8.241337 48.503349,8.221439 48.518771,8.219 48.522273,8.211713 48.535693,8.215486 48.557567,8.212633 48.560685,8.204878 48.576466,8.158302 48.586068,8.159265 48.593473,8.148669 48.595424,8.147341 48.606846,8.131107 48.607282,8.117424 48.613961,8.104655 48.621415,8.099037 48.634387,8.08894 48.654866,8.059404 48.668347,8.057506 48.674094,8.062861 48.672639,8.074326 48.659415,8.064147 48.659415,8.064147</polygon>
+      <geocode>
+        <valueName>EXCLUDE_POLYGON</valueName>
+        <value>48.601009,8.178406 48.599215,8.179509 48.596163,8.197096 48.598291,8.197308 48.601009,8.178406 48.601009,8.178406 </value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>polygonal event area</areaDesc>
+      <polygon>48.712613,8.066701 48.705875,8.064009 48.70645,8.05784 48.712613,8.066701 48.712613,8.066701</polygon>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>polygonal event area</areaDesc>
+      <polygon>47.975738,8.373419 47.96848,8.368281 47.978038,8.364119 47.975738,8.373419 47.975738,8.373419</polygon>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Hinterzarten</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808315052</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Triberg im Schwarzwald</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808326060</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Schönwald im Schwarzwald</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808326054</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Schonach im Schwarzwald</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808326055</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Glottertal</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808315041</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Ibach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808337059</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Sasbach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808317116</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Lenzkirch</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808315068</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Sasbachwalden</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808317118</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Vöhrenbach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808326068</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Grafenhausen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808337039</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Buchenbach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808315020</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Böllen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808336010</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Breitnau</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808315016</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Simonswald</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808316042</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Gütenbach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808326020</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Aitern</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808336004</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Bollschweil</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808315014</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Dachsberg (Südschwarzwald)</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808337027</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Furtwangen im Schwarzwald</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808326017</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Feldberg (Schwarzwald)</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808315037</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Friedenweiler</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808315039</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Höchenschwand</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808337051</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Waldkirch</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808316056</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Fröhnd</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808336025</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Herrischried</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808337049</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Eisenbach (Hochschwarzwald)</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808315031</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Häusern</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808337045</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Häg-Ehrsberg</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808336106</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Titisee-Neustadt</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808315113</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Kleines Wiesental</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808336107</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Malsburg-Marzell</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808336104</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Elzach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808316010</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Zell im Wiesental</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808336103</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Wieden</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808336096</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Bonndorf im Schwarzwald</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808337022</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Badenweiler</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808315007</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Münstertal/Schwarzwald</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808315130</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Bräunlingen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808326006</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Bernau im Schwarzwald</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808337013</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Baiersbronn</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808237004</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Schliengen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808336078</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Schönau im Schwarzwald</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808336079</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Oberried</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808315084</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt St. Blasien</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808337097</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Seebach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808317126</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Müllheim</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808315074</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Schluchsee</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808315102</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Utzenfeld</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808336090</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Freiburg im Breisgau</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808311000</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Tunau</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808336089</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Todtnau</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808336087</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Todtmoos</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808337108</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde St. Peter</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808315095</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde St. Märgen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808315094</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Schönenberg</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808336080</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Schopfheim</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808336081</value>
+      </geocode>
+      <altitude>3280.8399</altitude>
+      <ceiling>9842.5197</ceiling>
+    </area>
+  </info>
+</alert>

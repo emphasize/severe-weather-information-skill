@@ -1,9 +1,10 @@
+#output feedparser.parse
 [{
 'title': '(Update) Warnhinweis vor STARKWIND',
 'title_detail': {'type': 'text/plain', 'language': None, 'base': 'https://www.dwd.de/DWD/warnungen/cap-feed/de/atom.xml', 'value': '(Update) Warnhinweis vor STARKWIND'},
 'links': [{'rel': 'alternate', 'href': 'https://www.dwd.de/DWD/warnungen/cap-feed/de/2.49.0.1.276.0.DWD.PVW.1602150660000.0eb8fcb8-6932-4614-b657-0d21bc4bff13.DEU.xml', 'type': 'text/html'}, {'rel': 'related', 'type': 'application/cap+xml', 'href': 'https://www.dwd.de/DWD/warnungen/cap-feed/de/2.49.0.1.276.0.DWD.PVW.1602150660000.0eb8fcb8-6932-4614-b657-0d21bc4bff13.DEU.xml'}],
 'link': 'https://www.dwd.de/DWD/warnungen/cap-feed/de/2.49.0.1.276.0.DWD.PVW.1602150660000.0eb8fcb8-6932-4614-b657-0d21bc4bff13.DEU.xml',
-'authors': [{'name': 'CAP@dwd.de (Deutscher Wetterdienst)', 'email': 'CAP@dwd.de'}], 
+'authors': [{'name': 'CAP@dwd.de (Deutscher Wetterdienst)', 'email': 'CAP@dwd.de'}],
 'author_detail': {'name': 'CAP@dwd.de (Deutscher Wetterdienst)', 'email': 'CAP@dwd.de'},
 'author': 'CAP@dwd.de (Deutscher Wetterdienst) (CAP@dwd.de)',
 'id': 'https://www.dwd.de/DWD/warnungen/cap-feed/de/2.49.0.1.276.0.DWD.PVW.1602150660000.0eb8fcb8-6932-4614-b657-0d21bc4bff13.DEU.xml',
