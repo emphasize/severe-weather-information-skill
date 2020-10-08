@@ -1,4 +1,5 @@
-#https://opendata.dwd.de/weather/alerts/cap/COMMUNEUNION_EVENT_STAT/Z_CAP_C_EDZW_20201006203935_PVW_STATUS_PREMIUMEVENT_COMMUNEUNION_DE.zip
+#https://opendata.dwd.de/weather/alerts/cap/COMMUNEUNION_EVENT_STAT/
+#-> Z_CAP_C_EDZW_20201006203935_PVW_STATUS_PREMIUMEVENT_COMMUNEUNION_DE.zip
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
   <identifier>2.49.0.1.276.0.DWD.PVW.1601880720000.7638a988-10da-4eb0-a1b4-9780846ce148.DEU</identifier>
