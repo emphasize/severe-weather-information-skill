@@ -1,4 +1,4 @@
-#
+#https://www.dwd.de/DWD/warnungen/warnapp/json/warnings.json
 warnWetter.loadWarnings({
   "time":1602181827000,
   "warnings":{
@@ -5668,4 +5668,9 @@ warnWetter.loadWarnings({
     "instruction":"",
     "stateShort":"NS",
     "altitudeStart":null,
-    "altitudeEnd":null}]},"vorabInformation":{},"copyright":"Copyright Deutscher Wetterdienst"});
+    "altitudeEnd":null
+    }]
+  },
+  "vorabInformation":{},
+  "copyright":"Copyright Deutscher Wetterdienst"
+});
